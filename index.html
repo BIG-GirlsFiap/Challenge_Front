@@ -2,108 +2,162 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./challenge.css">
-    <title>ICr - </title>
+    <title>ICr - | Instituto da Criança - Hospital das Clínicas - FMUSP </title>
+    <link rel="shortcut icon" type="imagex/png" href="https://icr.usp.br/wp-content/uploads/2017/11/favicon_icr.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-    <div id="container">
+    <header>
+        <section class="cab">
+            <span>
+                <img src="https://icr.usp.br/wp-content/uploads/2017/11/location_ico.png"> AV. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP
+            </span>
+            &nbsp; &nbsp; &nbsp;
+            <span>
+                <img src="https://icr.usp.br/wp-content/uploads/2017/11/phone_ico.png">  (11) 2661-8500 
+            </span>
+        </section>
+        <section class="parceiros">
+            <img class= "parceiro1" src="imagens/logoICr-1.png" >
+            <img class="parceiro2" src="imagens/logos_icr_parceiros.png">
+        </section>
+    </header>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#secao1"> Home </a></li>
+            <li><a href="#secao2"> Portal do Paciente </a></li>
+            <li><a href="#secao3"> Procedimentos  </a></li>
+            <li><a href="#secao4"> Apoio Psicológico </a></li>
+            <li><a href="#secao5"> Fale Conosco (avaliação) </a></li>
+            <li><a href="#secao6"> Apoio familiar / Inscrições e Campanhas </a></li>
+            <li><a href="#secao7"> Conteudo sobre a challenge  </a></li>
+        </ul>
+    </nav>
 
-        <head> Cabeçalho </head>
-        <nav>
-            <a href="#secao1"> Home </a>
-            <a href="#secao2"> Portal do Paciente </a>
-            <a href="#secao3"> Procedimentos  </a>
-            <a href="#secao4"> Apoio Psicológico </a>
-            <a href="#secao5"> Fale Conosco (avaliação) </a>
-            <a href="#secao6"> Apoio familiar / Inscrições e Campanhas </a>
-            <a href="#secao7"> Conteudo sobre a challenge  </a>
-        </nav>
-
+    <section class="container">
         <section id="secao1">
-            <h1> Home</h1>
-            Conteúdo
+            <h1 class="home"> Home </h1>
+            <img src="https://joov.com.br/assets/hospitais/img/profile-hospitais/fotos/clinicas/instituto-central-hospital-das-clinicas-sp.jpg">
         </section>
-        <section id="secao2">
-            <h1> Portal do Paciente</h1>
-            Conteúdo
-        </section>
-        <section id="secao3">
-            <h1> Procedimentos </h1>
+        <div class="forms">
+            <section id="secao2">
+                <h1> Portal do Paciente</h1>
+                <form action="">
+                <div class="form-control">
+                        <input type="text" id="user" placeholder="Digite seu email">
+                </div>
+            
+                <div class="form-control">
+                        <input type="text" id="senha" placeholder="Digite sua senha">
+                </div>
+            
+                    <div>
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <section id="secao3"> 
+            <h1 class = "Procedimentos"> Procedimentos </h1>
+            
             <h2>  Exame de Sangue </h2>
-            <h3> 
-                Imagine que seu corpo é uma cidade e as células são os moradores. O exame de sangue é como um 
-                detetive que coleta informações da "rodovia" do sangue, onde as células viajam. Ele analisa essas pistas para 
-                garantir que todos os moradores estejam felizes e saudáveis. É como um check-up divertido para a cidade do seu corpo! 
-                Os médicos usam esse check-up para garantir que você esteja saudável e, se houver algum problema, eles podem ajudar a resolver. 
-                É um jeito simples de cuidar da sua saúde!
-            </h3>
-
-            <h2> Exame de Ultrassonagrafia </h2>
-            <h3> 
-                O ultrassom é como uma máquina de tirar fotos mágica que os médicos usam para ver o que está acontecendo dentro do nosso corpo. 
-                Eles espalham um gelzinho na pele, que é um pouco frio, e usam uma varinha especial que emite sons que não conseguimos ouvir.
-
-                Esses sons são como ecos que voltam e ajudam os médicos a criar imagens do que está escondido lá dentro, como os órgãos. É uma 
-                forma legal de os médicos verem como tudo está funcionando sem precisar abrir nada, como 
-                um superpoder mágico!
-            </h3>
-            <h2> Exame de Tomografia </h2>
-            <h3> 
-                Vamos imaginar que seu corpo é uma cidade incrível e a tomografia é como um mapa detalhado dessa cidade. Os médicos querem saber 
-                exatamente como são os prédios e ruas por dentro, então usam uma máquina especial.
-
-                Essa máquina é como um superpoder secreto que tira muitas fotos rápidas enquanto você fica deitado. É como se fosse um super-herói 
-                espiando todos os cantinhos da cidade para garantir que tudo está em ordem. 
-                As fotos são como fatias de bolo que, quando colocadas juntas, criam um mapa 3D completo da sua cidade interna. Assim, os médicos 
-                podem ver todos os detalhes, como se estivessem dando uma espiadinha por dentro da sua cidade, sem precisar mexer em nada.
-                Então, a tomografia é como um super-herói com um mapa especial para garantir que sua cidade (seu corpo) esteja sempre segura e saudável!
-            </h3>
-
+            <table style="background-color: rgba(116, 184, 196, 0.856); border-radius: 10px;">
+                <tr>
+                    <td><img src="imagens/Sangue.png" class="IMGSangue" ></td>
+                    
+                    <td class="txtSangue">
+                        Imagine que seu corpo é uma cidade e as células são os moradores. O exame de sangue é como um 
+                        detetive que coleta informações da "rodovia" do sangue, onde as células viajam. Ele analisa essas pistas para 
+                        garantir que todos os moradores estejam felizes e saudáveis. É como um check-up divertido para a cidade do seu corpo! 
+                        Os médicos usam esse check-up para garantir que você esteja saudável e, se houver algum problema, eles podem ajudar a resolver. 
+                        É um jeito simples de cuidar da sua saúde!
+                  </td> 
+                </tr>  
+            </table>
+            
+            <h2 class = "Ultrassom"> Exame de Ultrassonagrafia </h2>
+            <table style="background-color: rgba(116, 184, 196, 0.856); border-radius: 10px;">
+                <tr>
+                    <td class="txtUltrassom">
+                        O ultrassom é como uma máquina de tirar fotos mágica que os médicos usam para ver o que está acontecendo dentro do nosso corpo. 
+                        Eles espalham um gelzinho na pele, que é um pouco frio, e usam uma varinha especial que emite sons que não conseguimos ouvir.
+        
+                        Esses sons são como ecos que voltam e ajudam os médicos a criar imagens do que está escondido lá dentro, como os órgãos. É uma 
+                        forma legal de os médicos verem como tudo está funcionando sem precisar abrir nada, como 
+                        um superpoder mágico!
+                    </td>
+                    
+                    <td>
+                        <img src="imagens/Ultrassom1.png" class="IMGUltra" width="1000px">
+                    </td> 
+                </tr>  
+            </table>
+            <h2 class= "Tomo"> Exame de Tomografia </h2>
+            <table style="background-color: rgba(116, 184, 196, 0.856); border-radius: 10px;">
+                <tr>
+                    <td><img src="imagens/Tomo.png" class="IMGTOMO" width="300px"></td>
+                    <td class="txtTomo">
+                        Vamos imaginar que seu corpo é uma cidade incrível e a tomografia é como um mapa detalhado dessa cidade. Os médicos querem saber 
+                        exatamente como são os prédios e ruas por dentro, então usam uma máquina especial.
+                        Essa máquina é como um superpoder secreto que tira muitas fotos rápidas enquanto você fica deitado. É como se fosse um super-herói 
+                        espiando todos os cantinhos da cidade para garantir que tudo está em ordem. 
+                        As fotos são como fatias de bolo que, quando colocadas juntas, criam um mapa 3D completo da sua cidade interna. Assim, os médicos 
+                        podem ver todos os detalhes, como se estivessem dando uma espiadinha por dentro da sua cidade, sem precisar mexer em nada.
+                        Então, a tomografia é como um super-herói com um mapa especial para garantir que sua cidade (seu corpo) esteja sempre segura e saudável!
+                  </td> 
+                </tr> 
+            </table>  
         </section>
         <section id="secao4">
-            <h1><strong>Apoio Psicológico </strong> </h1>
-            <br>
-            <h1> Você sabia ? </h1>
-            <br>
-            <p>O acompanhamento psicológico é muito importante no contexto de doenças, tanto para o paciente quanto para os acompanhantes.  </p>
-            <p>O diagnóstico e tratamento podem trazer muitos sentimentos, como o medo, a ansiedade, a tristeza e frustações. </p>
-            <p>Muitas das vezes é preciso ter alterações na rotina, alguns pacientes e acompanhantes precisam passar muito tempo dentro de hospitais, que pode afetar no trabalho e nos estudos.  </p>
-            <p>É importante lembrar que a saúde mental ajuda na aceitação de tratamentos. </p>
-            <p>Por isso o acompanhamento psicológico tem extrema importância nos tratamentos, por ajudar a lidar com esses momentos de decisões difíceis e ter um espaço que possa ser usado como um apoio para ajudar a melhorar a exaustão mental.  </p>
-            <!-- Se conseguir , colocar o texto dentro de uma caixa -->
-            <br>
-            <br>
-            <h1>RESPONSÁVEIS</h1>
-            <p> Agende já uma sessão :</p>
-            <button>Online</button> 
-            <button>Presencial</button>
-            <!-- deixar botão um do lado do outro -->
-            <img src="imagens/Terapia.acompanhante.png">
-            <!-- deixar a imagem ao lado dessa parte do responsavel -->
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1>PACIENTES</h1>
-            <p> Agende já uma sessão para o seu pequeno(a):</p>
-            <button> Online </button> 
-            <button> Presencial </button>
-            <img src="imagens/Terapia.paciente.png">
-            <!-- deixar a imagem ao lado dessa parte do responsavel -->
-            <!-- deixar botão um do lado do outro -->
-            <!-- deixar botão com a borda arredondada  -->
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        
-        
+            <h1 class="Apoio">Apoio Psicológico </h1>
+            <text class="txtApoio"> <center> <strong> Você sabia? </strong></center>
+                <text1> 
+                <p>O acompanhamento psicológico é muito importante no contexto de doenças, tanto para o paciente quanto para os acompanhantes.</p>  
+                <p>O diagnóstico e tratamento podem trazer muitos sentimentos, como o medo, a ansiedade, a tristeza e frustações.</p> 
+                 <p>Muitas das vezes é preciso ter alterações na rotina, alguns pacientes e acompanhantes precisam passar muito tempo dentro de hospitais, 
+                que pode afetar no trabalho e nos estudos.</p>  
+                <p>É importante lembrar que a saúde mental ajuda na aceitação de tratamentos. </p>
+                <p>Por isso o acompanhamento psicológico tem extrema importância nos tratamentos, por ajudar a lidar com esses momentos de decisões difíceis 
+                e ter um espaço que possa ser usado como um apoio para ajudar a melhorar a exaustão mental. </p>
+                </text1>
+            </text>
+            <h1 class="conteudoApoio">RESPONSÁVEIS</h1>
+            <table style="background-color: rgba(121, 138, 145, 0.473); border-radius: 10px; width: 100%;"> 
+                <tr> 
+                    <td class="Terapia2">   
+                        <h2 class="sessaoAdulto"> Agende já uma sessão: </h2>
+                        <br>
+                        <button class="Botao1">Online</button> 
+                        <button class="Botao2">Presencial</button>
+                    </td>
+                    <td>
+                        <img class="IMGTerapia2" src="imagens/Terapia2.png">
+                    </td>
+                </tr>
+            </table>
+            <h1 class="conteudoApoio"> PACIENTES </h1>
+            <table style="background-color: rgba(121, 138, 145, 0.473); border-radius: 10px; width: 100%;"> 
+                <tr> 
+                    <td class="Terapia2">   
+                        <h2 class="sessaoAdulto"> Agende já uma sessão para o seu pequeno: </h2>
+                        <br>
+                        <button class="Botao1">Online</button> 
+                        <button class="Botao2">Presencial</button>
+                    </td>
+                    <td>
+                        <img class="IMGTerapia3" src="imagens/Terapia3.png">
+                    </td>
+                </tr>
+            </table>
         </section>
         <section id="secao5">
-            <h1> Fale Conosco e Avalie </h1>
-            <h2>Avalie aqui com foi a sua experiência durante os exames realizados no nosso hospital.</h2>
+            <h1 class="avaliacao"> Fale Conosco e Avalie </h1>
+            <h1 class="txtAvaliacao">Avalie neste campo como foi a sua experiência durante os exames realizados no nosso hospital.</h1>
             
             <form action="">
                 <div class = "form-control">
@@ -115,10 +169,11 @@
                     <input type="text" id="Exames" placeholder="Selecione um exame "/>
                 </div>
             </form>
-        
+            <!-- Aparecer a validação do formulário data e tipo de exame -->
+            <br>
                 <div class="lista">
-                    <button id="Tipos"> Tipos de exames </button>
-            
+                <button class="BTipos"> Tipos de exames </button>
+                <!-- clicar e aparecer a lista de exame -->
                     <ul class="Tipos">
                        
                         <li>Ultrassom</li>
@@ -130,92 +185,162 @@
             <br>
             <br>
             <h2> Como você se sentiu durante o exame ? </h2>
-            <button><img src="imagens/tristeza-botão.png"></button>
-            <button><img src="imagens/Raiva-botão.png"></button>
-            <button><img src="imagens/Alegria-botão.png"></button>
-            <button><img src="imagens/Medo-botão.png"></button>
+            <container2> 
+            <button class="botao-com-imagem1"><img src="imagens/tristeza-botão.png"></button> 
+            <button class="botao-com-imagem2"><img src="imagens/Raiva-botão.png"></button>
+            <button class="botao-com-imagem3"><img src="imagens/Alegria-botão.png"></button>
+            <button class="botao-com-imagem4"><img src="imagens/Medo-botão.png"></button>
+            </container2>
         
             
-            <br>
-            <br>
+            <br><br><br>
+            <txt class="Melhoria"> 
             <h2>Deixe aqui uma sugestão de melhoria:</h2>
-            <input type="text">
+            <center><input type="text"></center>
+            <button type="submit"> Enviar </button>
             <h2>Caso queira entrar em contato, aqui está nossa ouvidoria:</h2>
-            <ul>
-                       
+             <ul>  
                 <li>Sala do ambulatório</li>
                 <li>(11) 2661-8701</li>
                 <li>(11) 2661-8500</li>
-            </ul>
-        
+            </ul> 
+        </txt>
            
         
         
-            
+        <br><br><br>   
         </section>
         <section id="secao6">
-            <h1> Apoio familiar  </h1>
-            <h2> 
-                Bem-vindo à nossa seção de Apoio para Famílias, um espaço projetado com carinho para oferecer 
+            <h1 class="Familiar"> Apoio familiar / Inscrições e Campanhas </h1>
+            <h1> Apoio às Famílias</h1>
+            <p> 
+                Bem-vindo à nossa seção de Apoio para Famílias, 
+                <p>um espaço projetado com carinho para oferecer 
                 suporte e recursos valiosos às famílias que enfrentam desafios no tratamento. Sabemos que cada jornada 
                 é única, e é por isso que criamos este ambiente acolhedor, onde as famílias podem se conectar, encontrar 
-                apoio local, participar de grupos de apoio e acessar informações essenciais.
+                apoio local, participar de grupos de apoio e acessar informações essenciais.</p>
 
-                Aqui, acreditamos que ninguém deve caminhar sozinho durante períodos difíceis. Nossa seção atua como 
+                <p> Aqui, acreditamos que ninguém deve caminhar sozinho durante períodos difíceis. Nossa seção atua como 
                 um guia compassivo, conectando você a uma rede de recursos locais, facilitando o compartilhamento de experiências 
-                com outros membros da comunidade e disponibilizando informações úteis sobre o tratamento.
+                com outros membros da comunidade e disponibilizando informações úteis sobre o tratamento.</p>
                 
-                Seja sua família enfrentando desafios de saúde, educacionais ou sociais, nossa plataforma está aqui para oferecer 
+                <p> Seja sua família enfrentando desafios de saúde, educacionais ou sociais, nossa plataforma está aqui para oferecer 
                 um abraço virtual e recursos sólidos. Acreditamos que, juntos, podemos transformar esses desafios em oportunidades 
                 de crescimento, fortalecendo os laços que conectam nossas comunidades. Explore, conecte-se e descubra o apoio caloroso 
-                que você e sua família merecem. Estamos empenhados em ajudá-los a construir um caminho mais tranquilo e solidário rumo ao futuro.
-            </h2>
-            <button> Saiba Mais </button>
-            <h1> Inscriçaõ para ONGs e Voluntariados </h1>
-            <h2> 
-                Bem-vindo à nossa comunidade dedicada à transformação social e ao impacto positivo! Aqui, acreditamos que pequenas ações podem 
+                que você e sua família merecem. Estamos empenhados em ajudá-los a construir um caminho mais tranquilo e solidário rumo ao futuro.</p>
+            </p>
+            <!-- centralizar botões -->
+            <button class="BotaoSecao6"> Saiba Mais </button> 
+            <h1> Inscrição para ONGs e Voluntariados </h1>
+            
+            <p> 
+                Nossa comunidade é dedicada à transformação social e ao impacto positivo! Aqui, acreditamos que pequenas ações podem 
                 gerar grandes mudanças. Se você é apaixonado por fazer a diferença, queremos convidá-lo a se tornar parte integrante do nosso 
-                movimento.
+                movimento.</p>
 
-                Voluntários, Heróis do Dia a Dia:
+                <p> Voluntários, Heróis do Dia a Dia:
                 Sabemos que há inúmeras pessoas com o desejo sincero de contribuir para causas significativas. Se você é uma dessas pessoas, 
                 a inscrição como voluntário é o primeiro passo para fazer a diferença. Nossa plataforma oferece oportunidades de voluntariado em 
-                diversas áreas, desde educação e saúde até meio ambiente e apoio comunitário.
+                diversas áreas, desde educação e saúde até meio ambiente e apoio comunitário.</p>
 
-                Ao se inscrever, você se conecta a projetos que refletem seus interesses e habilidades, proporcionando a oportunidade de impactar 
+                <p> Ao se inscrever, você se conecta a projetos que refletem seus interesses e habilidades, proporcionando a oportunidade de impactar 
                 positivamente a vida das pessoas. Acreditamos que cada voluntário é um herói do dia a dia, e juntos podemos construir um mundo mais 
-                solidário e compassivo.
-            </h2>
-            <button> Inscreva-se </button>
-            <h2> 
-                ONGs: Fortalecendo Causas, Construindo Parcerias:
-
+                solidário e compassivo.</p>
+            </p>
+            <!-- centralizar botões -->
+            <button class="BotaoSecao6"> Inscreva-se </button> 
+            <h1>ONGs: Fortalecendo Causas, Construindo Parcerias</h1>
+         
+            <p>   
                 Se você representa uma organização não governamental (ONG) que está comprometida com uma causa nobre, convidamos você a se juntar a 
                 nós para amplificar seu impacto. Nossa plataforma oferece uma vitrine virtual para ONGs, fornecendo uma visibilidade valiosa para 
-                suas iniciativas e projetos.
+                suas iniciativas e projetos.</p> 
 
+            <p> 
                 Ao se cadastrar, sua ONG se torna parte de uma rede inspiradora, conectando-se a voluntários entusiasmados, potenciais parceiros 
                 e doadores generosos. Acreditamos que, fortalecendo causas, construímos parcerias duradouras que podem gerar mudanças significativas 
                 em nossas comunidades.
-            </h2>
-            <button> Inscreva-se </button>
+            </p>
+            <button class="BotaoSecao6" > Inscreva-se </button>
+            <br>
             <h1> Campanhas </h1>
-            <h2> 
+            <p> 
                 Campanhas são oportunidades de transformar empatia em ação tangível. Seja apoiando iniciativas locais, ajudando indivíduos em 
                 necessidade ou impulsionando projetos comunitários, cada contribuição é um passo em direção a um futuro mais solidário e compassivo.
-                Não espere para ser parte da mudança que deseja ver no mundo. Explore nossas campanhas, contribua, compartilhe e inspire-se. Juntos, 
+                Não espere para ser parte da mudança que deseja ver no mundo.</p> 
+            <p>
+                Explore nossas campanhas, contribua, compartilhe e inspire-se. Juntos, 
                 podemos transformar vidas e criar um impacto duradouro. Faça a diferença agora, junte-se à nossa comunidade de mudança positiva! 
-            </h2>
-            <button> Saiba mais sobre as campanhas </button>
+            </p>
+            <button class="BotaoSecao6" > Saiba mais sobre as campanhas </button>
         </section>
         <section id="secao7">
-            <h1> Conteudo sobre a challenge  </h1>
-            Conteúdo
+            <h1 class="Familiar"> Nossa Challenge  </h1>
+            <p>
+                Ao analisarmos o caso, vimos que por falta de compreensão e entendimento do exame, alguns pacientes e acompanhantes chegam 
+                ao hospital sem saber ao certo o que será realizado. Levando ao desconforto e ansiedade tanto do paciente quanto do acompanhante. 
+            </p> 
+
+            <p>
+                Pensando nisso foi desenvolvido a seção de procedimentos, onde estão descritos os processos de todos os exames, de forma 
+                lúdica e simples, junto com algumas imagens mostrando como funciona os exames para melhor compreensão dos pacientes 
+                e acompanhantes. 
+            </p> 
+
+            <p>
+                Também foi analisado que o uso da anestesia é bem frequente para a realização dos exames,  
+                isso se dá pelo medo que esses pacientes sentem e por já terem passado por situações traumáticasanteriormente, 
+                em outros processos que eles passaram para chegar aos seus diagnósticos. 
+            </p> 
+
+            <p>
+                Com isso foi criado a seção de avaliações, em que o paciente poderá avaliar o seu atendimento e o  
+                exame de acordo com as emoções, que são representadas pelos personagens de divertida mente, como o medo, a raiva, a alegria 
+                e a tristeza. Ele poderá descrever sugestões de melhora, isso será enviado para o seu prontuário, ajudando a equipe como
+                realizar o próximo exame de forma mais agradável. 
+            </p> 
+
+            <p>
+                A grande parte dos acompanhantes são mães solo, que não tem uma grande rede de apoio e muitas da vezes tem que largar o 
+                trabalho ou reduzi-lo, para poder acompanhar os exames.
+            </p> 
+
+            <p>
+                Por isso foi criado a seção de apoio familiar, onde ela poderá encontrar suporte e ajuda nas etapas do tratamento. 
+            </p> 
+
+            <p>
+                E com toda essa situação a saúde mental da maioria acaba sendo afetada de alguma forma, e a saúde mental 
+                é tão importante quanto a física.
+            </p> 
+
+            <p>
+                Foi adicionado uma seção de apoio psicológico tanto para o paciente como para o acompanhante,  
+                tem as opções de atendimento online ou presencial, para facilitar o atendimento,  
+                já que as vezes os deslocamentos não são possíveis.  
+            </p> 
         </section>
-
-
-    </div>
-
+    <footer style="background-color: #1e1b54fb">
+        <img src="./imagens/procurar (1).png" id="lupa"></img>
+        <site>Links Úteis
+            <p>
+                <a href="https://sigma.icr.usp.br/login.aspx?ReturnUrl=%2frestrito%2fdefault.aspx"style="color: white;" > > Portal Sigrma </a>
+                <br>
+                <a href="https://www.itaci.org.br/"> > ITACI </a>
+                <br>
+                <a href="https://portalpaciente.icr.usp.br/portal/"> > Portal do Paciente </a>  
+            </p>          
+        </site>
+        <img src="./imagens/telefone-giratorio (1) (1).png" id="contato"> </img>
+        <cont> Contatos </cont>
+        <telfoot> > Telefones e Contatos</telfoot>
+            <img src="./imagens/marcador.png" id="localiza"></img>
+            <img src="./imagens/youtube (1).png" id="youtube"></img>
+            <img src="./imagens/facebook (1).png" id="face"></img>
+            <img src="./imagens/instagram (1).png" id="instagram"></img>
+            <img src="./imagens/googleplay-300x89.png" id="google">
+            <img src="./imagens/appstore-300x89.png" id="apple"> </img>  
+    </footer>
+    <script src="js.js"></script>
 </body>
-
 </html>
