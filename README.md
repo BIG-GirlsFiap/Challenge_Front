@@ -41,7 +41,7 @@
 
 
 </div>
-<h2> DESCRIÇÃO SOFTWARE E TOTAL EXPERIENCE DESIGN</h2>
+<h2> DESCRIÇÃO SOFTWARE E TOTAL EXPERIENCE DESIGN </h2>
 <p>
     Entrega: Documento descritivo, apresentando o entendimento do problema, a identificação das dores do cliente alvo de sua solução e ideia base da solução que pretende desenvolver.  
 </p>
@@ -74,8 +74,8 @@
     Objetivo: Compreender profundamente o cenário em questão, identificando os principais públicos (usuários, clientes, funcionários) dentro do tema proposto. 
     <br>
     Diretrizes: 
-        <p>Baseado na análise detalhada do tema, com a identificação das áreas problemáticas e as dores associadas, efetuadas na disciplina de Software & TX Design, conduza um brainstorming com sua equipe ou stakeholders relevantes para coletar insights e perspectivas variadas.</p> 
-        <p>Documente os resultados do brainstorming, destacando as dores percebidas e discutindo possíveis abordagens para resolução. </p>
+        <p> - Baseado na análise detalhada do tema, com a identificação das áreas problemáticas e as dores associadas, efetuadas na disciplina de Software & TX Design, conduza um brainstorming com sua equipe ou stakeholders relevantes para coletar insights e perspectivas variadas.</p> 
+        <p> - Documente os resultados do brainstorming, destacando as dores percebidas e discutindo possíveis abordagens para resolução. </p>
 </p>
  
 <p>
@@ -83,9 +83,9 @@
     Objetivo: Apresentar uma solução inovadora para um dos problemas identificados, destacando sua proposta de valor. 
     <br>
     Diretrizes: 
-        <p> Escolha um dos problemas ou dores mapeados no Passo 1 que você acredita ter o maior impacto ou relevância. </p>
-        <p> Baseado na ideia de solução escolhida (essa etrega faz parte de Software & TX Design), defina claramente a proposta de valor da sua solução, explicando como ela se diferencia de outras abordagens existentes e qual o seu impacto potencial. </p>
-        <p>Utilize exemplos, estudos de caso ou simulações para ilustrar a eficácia da sua solução. </p>
+        <p> - Escolha um dos problemas ou dores mapeados no Passo 1 que você acredita ter o maior impacto ou relevância. </p>
+        <p> - Baseado na ideia de solução escolhida (essa etrega faz parte de Software & TX Design), defina claramente a proposta de valor da sua solução, explicando como ela se diferencia de outras abordagens existentes e qual o seu impacto potencial. </p>
+        <p>- Utilize exemplos, estudos de caso ou simulações para ilustrar a eficácia da sua solução. </p>
 </p>
  
 <p>
@@ -93,10 +93,10 @@
     Objetivo: Apresentar a solução e sua proposta de valor de forma concisa e envolvente através de um vídeo. 
     <br>
         Diretrizes: 
-        <p>Grave um vídeo de curta duração (sugestão: 1-2 minutos) apresentando sua solução e sua proposta de valor. </p>
-        <p>O vídeo deve ser claro, conciso e cativante, garantindo que os espectadores compreendam rapidamente a essência da sua ideia.</p> 
-        <p>Faça o upload do vídeo no YouTube e garanta que ele esteja configurado como "público" ou "não listado" para que os avaliadores possam acessá-lo. </p>
-        <p>Inclua o link do vídeo diretamente em sua apresentação do PowerPoint para fácil acesso. </p>
+        <p> - Grave um vídeo de curta duração (sugestão: 1-2 minutos) apresentando sua solução e sua proposta de valor. </p>
+        <p> - O vídeo deve ser claro, conciso e cativante, garantindo que os espectadores compreendam rapidamente a essência da sua ideia.</p> 
+        <p> - Faça o upload do vídeo no YouTube e garanta que ele esteja configurado como "público" ou "não listado" para que os avaliadores possam acessá-lo. </p>
+        <p> - Inclua o link do vídeo diretamente em sua apresentação do PowerPoint para fácil acesso. </p>
 </p>
 
 <h2> DESCRIÇÃO  FRONT-END DESIGN </h2>
@@ -125,15 +125,15 @@
     disciplina de Front-End Design. O projeto final será entregue na forma de: 
 </p>
 <p>
-    Páginas HTML com o(s) arquivo(s) Javascript integrado(s) e deverá incluir a implementação; 
+    - Páginas HTML com o(s) arquivo(s) Javascript integrado(s) e deverá incluir a implementação; 
     de algumas funcionalidades básicas usando Javascript. (10 pontos);  
 </p>
 <p> 
-    Algumas das funcionalidade que devem ser implementadas no projeto incluem:  
+    - Algumas das funcionalidade que devem ser implementadas no projeto incluem:  
     Manipular elementos e eventos da(s) página(s) dinamicamente. (25 pontos) 
     Validar formulários (de, acordo com as necessidades da solução). (25 pontos) 
     Criar e gerenciar eventos de usuário. (20 pontos) 
 </p>
 <p>
-    A entrega deve ser escrita inteiramente em Javascript, sem o uso de frameworks ou bibliotecas externas, para permitir que os participantes desenvolvam uma compreensão mais profunda da linguagem. (20 pontos) 
+    - A entrega deve ser escrita inteiramente em Javascript, sem o uso de frameworks ou bibliotecas externas, para permitir que os participantes desenvolvam uma compreensão mais profunda da linguagem. (20 pontos) 
 </p>
