@@ -72,29 +72,31 @@
 <p>
     Passo 1: Mapeamento e Estruturação do Público-alvo (25 pontos)  
     Objetivo: Compreender profundamente o cenário em questão, identificando os principais públicos (usuários, clientes, funcionários) dentro do tema proposto. 
+    <br>
     Diretrizes: 
-        Baseado na análise detalhada do tema, com a identificação das áreas problemáticas e as dores associadas, efetuadas na disciplina de Software & TX Design, conduza um brainstorming com sua equipe ou stakeholders relevantes para coletar insights e perspectivas variadas. 
-
-        Documente os resultados do brainstorming, destacando as dores percebidas e discutindo possíveis abordagens para resolução. 
+        <p>Baseado na análise detalhada do tema, com a identificação das áreas problemáticas e as dores associadas, efetuadas na disciplina de Software & TX Design, conduza um brainstorming com sua equipe ou stakeholders relevantes para coletar insights e perspectivas variadas.</p> 
+        <p>Documente os resultados do brainstorming, destacando as dores percebidas e discutindo possíveis abordagens para resolução. </p>
 </p>
  
 <p>
     Passo 2: Proposição de Solução e Definicação de Prosposta de Valor (50 pontos) 
     Objetivo: Apresentar uma solução inovadora para um dos problemas identificados, destacando sua proposta de valor. 
+    <br>
     Diretrizes: 
-        Escolha um dos problemas ou dores mapeados no Passo 1 que você acredita ter o maior impacto ou relevância. 
-        Baseado na ideia de solução escolhida (essa etrega faz parte de Software & TX Design), defina claramente a proposta de valor da sua solução, explicando como ela se diferencia de outras abordagens existentes e qual o seu impacto potencial. 
-        Utilize exemplos, estudos de caso ou simulações para ilustrar a eficácia da sua solução. 
+        <p> Escolha um dos problemas ou dores mapeados no Passo 1 que você acredita ter o maior impacto ou relevância. </p>
+        <p> Baseado na ideia de solução escolhida (essa etrega faz parte de Software & TX Design), defina claramente a proposta de valor da sua solução, explicando como ela se diferencia de outras abordagens existentes e qual o seu impacto potencial. </p>
+        <p>Utilize exemplos, estudos de caso ou simulações para ilustrar a eficácia da sua solução. </p>
 </p>
  
 <p>
     Passo 3:  Pré-Pitch em vídeo. (25 pontos) 
     Objetivo: Apresentar a solução e sua proposta de valor de forma concisa e envolvente através de um vídeo. 
+    <br>
         Diretrizes: 
-        Grave um vídeo de curta duração (sugestão: 1-2 minutos) apresentando sua solução e sua proposta de valor. 
-        O vídeo deve ser claro, conciso e cativante, garantindo que os espectadores compreendam rapidamente a essência da sua ideia. 
-        Faça o upload do vídeo no YouTube e garanta que ele esteja configurado como "público" ou "não listado" para que os avaliadores possam acessá-lo. 
-        Inclua o link do vídeo diretamente em sua apresentação do PowerPoint para fácil acesso. 
+        <p>Grave um vídeo de curta duração (sugestão: 1-2 minutos) apresentando sua solução e sua proposta de valor. </p>
+        <p>O vídeo deve ser claro, conciso e cativante, garantindo que os espectadores compreendam rapidamente a essência da sua ideia.</p> 
+        <p>Faça o upload do vídeo no YouTube e garanta que ele esteja configurado como "público" ou "não listado" para que os avaliadores possam acessá-lo. </p>
+        <p>Inclua o link do vídeo diretamente em sua apresentação do PowerPoint para fácil acesso. </p>
 </p>
 
 <h2> DESCRIÇÃO  FRONT-END DESIGN </h2>
