@@ -57,7 +57,7 @@
                 </div>
             
                     <div>
-                        <button type="submit">Login</button>
+                        <button type="submit" class="buttonForm1">Login</button>
                     </div>
                 </form>
             </section>
@@ -160,11 +160,11 @@
             <h1 class="txtAvaliacao">Avalie neste campo como foi a sua experiência durante os exames realizados no nosso hospital.</h1>
             
             <form action="">
-                <div class = "form-control">
+                <div class = "form-control-2">
                     <h1> Dia que foi realizado o exame </h1>
                     <input type="text" id="data" placeholder="insira a data "/>
                 </div>
-                <div class = "form-control">
+                <div class = "form-control-2">
                     <h1> Qual tipo de exame foi realizado: </h1>
                     <input type="text" id="Exames" placeholder="Selecione um exame "/>
                 </div>
@@ -172,16 +172,17 @@
             <!-- Aparecer a validação do formulário data e tipo de exame -->
             <br>
                 <div class="lista">
-                <button class="BTipos"> Tipos de exames </button>
+                <h1>Tipos de Exame:</h1>
+                <button class="BTipos" type="submit"> Clique para Expandir </button>
                 <!-- clicar e aparecer a lista de exame -->
-                    <ul class="Tipos">
+                    <ul class="Tipos d-none">
                        
                         <li>Ultrassom</li>
                         <li>Exame de Sangue</li>
                         <li>Tomografia</li>
                     </ul>
                 <div>
-                    <button type="submit"> Enviar </button>
+                    <button type="submit" class="sendButton"> Enviar </button>
             <br>
             <br>
             <h2> Como você se sentiu durante o exame ? </h2>
@@ -200,7 +201,7 @@
             <txt class="Melhoria"> 
             <h2>Deixe aqui uma sugestão de melhoria:</h2>
             <center><input type="text"></center>
-            <button type="submit"> Enviar </button>
+            <button type="submit" class="sendButton"> Enviar </button>
             <h2>Caso queira entrar em contato, aqui está nossa ouvidoria:</h2>
              <ul>  
                 <li>Sala do ambulatório</li>
@@ -208,10 +209,7 @@
                 <li>(11) 2661-8500</li>
             </ul> 
         </txt>
-           
-        
-        
-        <br><br><br>   
+            
         </section>
         <section id="secao6">
             <h1 class="Familiar"> Apoio familiar / Inscrições e Campanhas </h1>

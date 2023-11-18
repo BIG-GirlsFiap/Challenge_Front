@@ -139,13 +139,14 @@ section {
 
 /* Botão */
 
-button {
+.buttonForm1 {
     margin-bottom: 20px;
     background-color: rgb(81, 79, 228);
     border: 0;
     padding: 10px;
     color: #fff;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .erro {
@@ -155,10 +156,13 @@ button {
 }
 
 .d-none {
-    /* serve para esconder elementos */
     display: none;
 }
 
+
+.d-block {
+    display: block;
+}
 
 #secao3{
     text-align: justify;
@@ -240,7 +244,7 @@ text-align: justify;
 }
 .txtApoio {
     display: inline-block;
-    padding: 1px;
+    padding: 5px 10px;
     background-color: rgba(116, 184, 196, 0.856);
     font-size: 18px;
     position: relative;
@@ -278,12 +282,14 @@ text-align: justify;
     font-size: 30px;
     background-color: rgba(116, 184, 196, 0.856);
     border-radius: 10px;
+    cursor: pointer;
 }
 .Botao2{
     margin-left: 50px;
     font-size: 30px;
     background-color: rgba(116, 184, 196, 0.856);
     border-radius: 10px;
+    cursor: pointer;
 }
 .IMGTerapia2{
     margin: 2px;
@@ -385,12 +391,31 @@ text-align: justify;
     cursor: pointer;
     
 } 
-/* .Btipos{
-    font-size: 30px;
+
+.sendButton {
+    margin-bottom: 20px;
+    background-color: rgb(67, 177, 180);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 570px;
 }
-.submit{
-    font-size: ;
-} */
+
+
+
+.BTipos{
+    margin-bottom: 20px;
+    background-color: rgb(80, 214, 80);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
 .Melhoria {
     text-align: center;
 }
@@ -511,6 +536,8 @@ a{
     left: 77%;
     top: 65%;
 }
+
+
 @media screen and (max-width: 600px) {
     .home {
         width: 80%;
