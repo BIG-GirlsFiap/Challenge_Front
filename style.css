@@ -442,6 +442,7 @@ text-align: justify;
     border-radius: 10px;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 #secao7{
     text-align: justify;
@@ -551,3 +552,4 @@ a{
         max-width: 100%;
     }
 }
+
