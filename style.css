@@ -1,0 +1,562 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Assegura que o corpo ocupa pelo menos 100% da altura da tela. */
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+section {
+    position: relative;
+    width: 100%;
+}
+
+.cab {
+    
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 370px;
+    font-family: monospace;
+    max-width: 1216px;
+    max-height: 49.36px;
+    /* justify-content: space-between; */
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+ /* Navegação */
+
+.navbar {
+    background-color: #1e1b54;
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar li {
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.parceiro1{
+    width: 30%;
+    margin-left: 8%;
+}
+/* seção 1 */
+
+#secao1 {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#secao1 img {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative; 
+    z-index: 0;
+    border: 1px solid rgb(15, 15, 15);
+}
+
+/* Home */ 
+
+.home {
+    background-color: #1e1b54fb;
+    height: 20px;
+    width: 50%;
+    position: absolute;
+    top: -4px; 
+    left: 25%; 
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+/* Formulário */
+
+.forms {
+    border: 1px solid rgb(204, 191, 240);
+    max-width: 500px;
+    /* auto serve para centralizar no centro */
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 5px;
+    /* "display:flex;" e "justify-content: center;" faz a mesma coisa */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    width: 101%;
+    height: 30%;
+}
+
+.form-control input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    /* outline serve para tirar a borda padrão do google */
+    outline: 0;
+}
+
+/* Botão */
+
+.buttonForm1 {
+    margin-bottom: 20px;
+    background-color: rgb(81, 79, 228);
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.erro {
+    color: rgb(224, 48, 48);
+    text-align: left;
+    margin-left: 32px;
+}
+
+.d-none {
+    display: none;
+}
+
+
+.d-block {
+    display: block;
+}
+
+#secao3{
+    text-align: justify;
+     
+} 
+
+#secao3> .Procedimentos {
+    
+    font-size: 18px;
+    background-color: #1e1b54fb;
+    position: relative;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+     top: -4px; 
+    left: 25%;  
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+}
+.txtSangue{
+    width: 70%;
+    height: 10px;
+    font-size: 21px;
+    color: white;
+    padding-right: 35px;
+}
+.IMGSangue{
+    width: 300px;
+    margin: 2%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+.txtUltrassom{
+    width: 65%;
+    font-size: 21px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+}
+.IMGUltra{
+    width: 300px;
+    margin: 2%;
+    margin-left: 22%;
+    border-radius: 10px;
+}
+.txtTomo{
+    width: 70%;
+    height: 10px;
+    font-size: 21px;
+    color: white;
+    padding-right: 35px; 
+}
+.IMGTOMO{
+    width: 300px;
+    margin: 2%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+
+
+.Apoio{
+    font-size: 18px;
+    background-color: #1e1b54fb;
+    position: relative;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    top: -4px; 
+    left: 25%; 
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+#secao4{
+text-align: justify;
+}
+.txtApoio {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(116, 184, 196, 0.856);
+    font-size: 18px;
+    position: relative;
+    align-items: center;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+    z-index: 1;
+    color: white;
+    border-radius: 10px;  
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+#secao4 > .textoApoio> .text1 {
+    border: 50px;
+    padding: 50px;
+}
+.conteudoApoio{
+    font-size: 30px;
+}
+
+.Terapia2{
+    margin: 5%;
+    font-size: 15px;
+    text-align: center; 
+    /* margin-left: 50px; */
+}
+.sessaoAdulto{
+    text-align: center;
+    margin-left: 20%;
+}
+.Botao1{
+    margin-left: 130px;
+    font-size: 30px;
+    background-color: rgba(116, 184, 196, 0.856);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Botao2{
+    margin-left: 50px;
+    font-size: 30px;
+    background-color: rgba(116, 184, 196, 0.856);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.IMGTerapia2{
+    margin: 2px;
+    width: 300px;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.IMGTerapia3{
+    margin: 2px;
+    width: 300px;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.avaliacao {
+    font-size: 18px;
+    background-color: #1e1b54fb;
+    position: relative;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    top: -4px; 
+    left: 25%; 
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+.txtAvaliacao{
+    font-size: 18px;
+    /* background-color: #1e1b54fb; */
+    position: relative;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    top: -4px; 
+    left: 25%; 
+    z-index: 1;
+    /* color: #fff; */
+    border-radius: 10px;
+}
+ .container2{
+    background-repeat: no-repeat;
+ }
+
+    
+.botao-com-imagem1{
+    background-image: url('imagens/Botão\ tristeza\ .png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 65px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+.botao-com-imagem2{
+    background-image: url('imagens/Botão\ raiva.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 69px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+   
+
+}
+.botao-com-imagem3{
+    background-image: url('imagens/Botão\ alegria.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.botao-com-imagem4{
+    background-image: url('imagens/Botão\ medo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 66px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 55px;
+    
+} 
+
+.sendButton {
+    margin-bottom: 20px;
+    background-color: rgb(67, 177, 180);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 570px;
+}
+
+
+
+.BTipos{
+    margin-bottom: 20px;
+    background-color: rgb(80, 214, 80);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.Melhoria {
+    text-align: center;
+}
+.Familiar{
+    font-size: 18px;
+    background-color: #1e1b54fb;
+    position: relative;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    top: -4px; 
+    left: 25%; 
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#secao6{
+    text-align: justify;
+}
+.BotaoSecao6{
+    font-size: 30px;
+    background-color: rgba(116, 184, 196, 0.856);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+#secao7{
+    text-align: justify;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    color: white;
+    background-color:#1e1b54fb;
+    top:225%;
+    
+}
+
+#lupa{
+    grid-area: ACESSIBILIDADE;
+    width: 25px;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+}
+
+#site{
+    position: absolute;
+    left: 18%;
+    top: 10%;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    top: 2%;
+}
+
+#contato{
+    grid-area: ACESSIBILIDADE;
+    width: 25px;
+    position: absolute;
+    left: 43%;
+    top: 19%;
+}
+#footer>cont{
+    grid-area: ACESSIBILIDADE;
+    font-size: 22px;
+    position: absolute;
+    left: 47%;
+    top: 20%;
+}
+
+#footer>telfoot{ 
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    font-size: 16px;
+}
+#localiza{
+    width: 25px;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+#youtube{
+    width: 25px;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+#face{
+    width: 25px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+#instagram{
+    width: 25px;
+    position: absolute;
+    top: 70%;
+    left: 53%;
+}
+
+#google{
+    width: 90px;
+    position: absolute;
+    left: 70%;
+    top: 65%;
+}
+#apple{
+    width: 90px;
+    position: absolute;
+    left: 77%;
+    top: 65%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .home {
+        width: 80%;
+        left: 10%;
+    }
+
+    #secao1 img {
+        margin-top: 20px;
+    }
+    .forms {
+        max-width: 100%;
+    }
+}
+
