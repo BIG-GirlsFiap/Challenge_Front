@@ -68,17 +68,21 @@ body{
 }
 .menu{
     width: 100%;
+    margin: 0 auto;
     
-    background: rgb(2,0,36);
-    background: linear-gradient(111deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,255,218,1) 100%);
-    color: white;
 }
 .menu-bar{
     width: 80%;
+    border: 1px solid rgb(2,0,36);;
+    border-radius: px;
+    background: white;
+    color: rgb(2,0,36);
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    box-shadow: 10px black;
 }
 .menu-bar ul{
     display: flex;
@@ -91,4 +95,30 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     gap: 7%;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.infos-hosp{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 300px;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.mapa{
+    width: 100%;
+
+    justify-content: left;
+}
+.clima{
+    width: 15%;
+    justify-content: right;
 }
