@@ -21,7 +21,7 @@ body{
 }
 
 .head div{
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     padding-top: 0.5%;    
@@ -31,12 +31,16 @@ body{
 .head-menu img:first-child{
     width: 9%;
 }
+.head-menu img:last-child{
+    width:20%
+}
 
 #menu{
     width: 50%;
     display: flex;
     gap:25px;
     justify-content: center;
+    align-items: center;;
     background-color: rgb(219, 245, 241);
     border: 1px solid rgba(255, 255, 255, 0);
     padding: 10px;
@@ -50,7 +54,7 @@ body{
     padding: 8px;
     border-radius: 60px;
     background-color:rgba(255, 255, 255, 0);
-    color:  rgb(6, 6, 180);;
+    color:  rgb(6, 6, 180);
     font-size: 1.0rem;
     transition: transform 0.3s;
     cursor: pointer;
@@ -73,9 +77,9 @@ body{
 }
 
 .main{
-    width: 85%;
+    width: 80%;
     margin:  0 auto;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     padding-top: 0.5rem;
 }
@@ -97,22 +101,74 @@ body{
     align-items: center;
 }
 
-
 #home-container{
-    display: flex;
     width: 100%;
-    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#home-container details{
+    text-align: justify;
+}
+#procedimentos-video{
+    width: 40%;
+    justify-content: flex-start;
+    background:  rgba(112, 84, 132);
+    background: linear-gradient(130deg, rgba(112, 84, 132, 0.36) 20%, rgb(208, 243, 238) 90%);
+    padding: 1%;
+    border-radius: 20px; 
+}
+
+#procedimentos-video .title{
+    text-align: center;
+}
+.title h1 {
+    font-size: 1.6rem;
+}
+.title p{
+    font-size: 1.0rem;
+}
+#box-video{
+    display: flex;
+    height: auto;
+    position: relative;
+    min-height: 40vh;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    
 }
-
 .container-videos{
+    width: 75%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%
+    
+}
+#container-videos video{
+    width:60%;
+}
+#procedimentos{
+    margin-top: 2%;
+}
+#btns-procedimentos button{
+    width: 50%;
+    padding: 6px;
+    margin-left: 25%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border-radius: 60px;
+    border: 1px solid; 
+    outline: 0;
+}
+#box-text{
+    display: flex;
 }
 .slider{
     position: absolute;
@@ -125,7 +181,7 @@ body{
     opacity: 1;
 }
 #prev-button, #prox-button{
-    width:15%;
+    width:20%;
     height: auto;
     border: none;
     background-color: transparent;
@@ -135,19 +191,33 @@ body{
     width: 30%;
     height: 300%;
 }
+#boxes-infos{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    justify-content: center;
+}
+
+#infos-hosp img{
+   width: 30%;
+
+}
 #portal-paciente{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     height: 100%;
+    gap: 5%;
 }
 #portal{
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(219, 245, 241);
-
+    width: 35%;
+    justify-content: flex-start;
+    height: 30%;
+    background:  rgba(112, 84, 132);
+    background: linear-gradient(130deg, rgba(112, 84, 132, 0.36) 20%, rgb(208, 243, 238) 80%);
+    /* background-color: rgb(219, 245, 241); */
     padding: 3%;
-    border-radius: 60px;
+    border-radius: 20px;
 }
 #portal h1{
     font-size: 1.4rem;
@@ -163,7 +233,6 @@ body{
 }
 form{
     width: 80%;
-    
     align-items: center;
     justify-content: center;
     padding:30px;
@@ -191,7 +260,7 @@ form button{
     display: inline;
     position:relative;
     width: 50%;
-    padding: 6px;
+    padding: 10px;
     margin-top: 6%;
     justify-content: center;
     border: 1px solid;
@@ -199,9 +268,116 @@ form button{
     border-radius: 60px;
     margin-left: 25%;
     color: white;
-    background: rgb(25,0,117);
-    background: linear-gradient(90deg, rgba(25,0,117,1) 30%, rgba(0,255,213,1) 100%);
+    background: rgb(6, 6, 180);;
 }
 
 #avaliation{
+    width: 60%;
+    display: flex;  
+    background:  rgba(112, 84, 132);
+    background: linear-gradient(330deg, rgba(112, 84, 132, 0.36) 20%, rgb(208, 243, 238) 80%);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    /* border: 1px solid rgba(112, 84, 132, 0.8); */
+    /* border-radius: 60px ; */
+    padding: 5%;
+}
+
+#avaliation h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;  
+    font-size: 1.6rem;
+    padding-top:2% ;
+}
+
+#avaliation p, #avaliation-box p{
+    margin-top: 6%;
+    margin-bottom: 1%;
+    /* text-align: center;   */
+    font-size: 1.2rem;  
+}
+#avaliation-box{
+    width: 100%;
+    border: none;
+}
+#avaliation-box button{
+    width: 24%;
+    height: 20%;
+    gap: 10px;
+    padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    /* border-radius: 45px; */
+} 
+#avaliation-box button img{
+    width:80%;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+    border-radius: 100px;
+    transform: transition 0.5;
+}
+
+#avaliation-box button img:hover{
+    transform: scale(1.1);
+}
+
+#exame-container{
+    margin-left: 5%;
+    width:90%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    align-items: center;
+}
+#checkbox-consultas{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#checkbox-consultas input[type='text'], #checkbox-consultas input[type='date']{
+    width: 50%;
+    padding: 6px;
+    margin-left: 25%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border-radius: 60px;
+    border: 1px solid; 
+    outline: 0;
+
+}
+.campanha{
+    border: 1px solid palevioletred;
+    width: 100%;
+}
+.quadro-campanhas{
+    border: 1px solid red;
+    background-color: red;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    gap: 10px 30px;
+}
+
+footer{
+    width: 100%; 
+    background-color: aquamarine;
+    margin-top: 0 auto; 
+}
+.foot{
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }

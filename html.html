@@ -12,7 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <script src="./src/script.js" defer></script>
+    <script src="./src/script.js" defer>
+        
+    </script>
 
 </head>
 
@@ -49,36 +51,102 @@
     </header>
 
     <div class="main">
-
         <div class="content" id="home-container">
-            <button id="prev-button">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
-                    <path
-                        d="m24,11.5H1.266l4.617-4.617-.707-.707L.458,10.894c-.61.61-.61,1.604,0,2.215l4.717,4.716.707-.707L1.265,12.5h22.735v-1Z" />
-                </svg>
-            </button>
-            <div class="container-videos">
-                <video src="ExameDeSangue.mp4" class="slider on"></video>
-                <img src="imagens/Instituto-da-criança-enfermagem.jpg" alt="">
+            <div id='procedimentos-video'>
+                <div class="title">
+                    <h1>Procedimentos</h1>
+                    <p>Explicação Lúdica</p>
+                </div>
+                <div id='box-video'>
+                    <button id="prev-button">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                            <path
+                                d="m24,11.5H1.266l4.617-4.617-.707-.707L.458,10.894c-.61.61-.61,1.604,0,2.215l4.717,4.716.707-.707L1.265,12.5h22.735v-1Z" />
+                        </svg>
+                    </button>
+                    <div class="container-videos">
+                        <video controls src="ExameDeSangue.mp4" class="slider on"></video>
+                    </div>
+                    <button id="prox-button">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                            <path
+                                d="m23.542,10.892l-4.717-4.717-.707.707,4.618,4.618H0v1h22.734l-4.617,4.617.707.707,4.718-4.718c.61-.61.61-1.604,0-2.214Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="btns-procedimentos" class="procedimentos">
+                    <button id="btnHome-examedesangue">Exame de Sangue</button>
+                    <div id="procedimento-examesangue" class="procedimento-examesangue d-none">
+                        <h1>Examde de Sangue</h1>
+                        <p>
+                            Imagine que seu corpo é uma cidade e as células são os moradores. O exame de sangue é como
+                            um
+                            detetive que coleta informações da "rodovia" do sangue, onde as células viajam. Ele analisa
+                            essas
+                            pistas para garantir que todos os moradores estejam felizes e saudáveis. É como um check-up
+                            divertido para a cidade do seu corpo! Os médicos usam esse check-up para garantir que você
+                            esteja
+                            saudável e, se houver algum problema, eles podem ajudar a resolver. É um jeito simples de
+                            cuidar
+                            da
+                            sua saúde!
+                        </p>
+                    </div>
+                    <button id="btnHome-ultrassom">Ultrassonagrafia</button>
+                    <div id="procedimento-ultrassom" class="procedimento-ultrassom d-none">
+                        <h1>Ultrassom</h1>
+                        <p>
+                            O ultrassom é como uma máquina de tirar fotos mágica que os médicos usam para ver o que está
+                            acontecendo dentro do nosso corpo. Eles espalham um gelzinho na pele, que é um pouco frio, e
+                            usam
+                            uma varinha especial que emite sons que não conseguimos ouvir. Esses sons são como ecos que
+                            voltam e
+                            ajudam os médicos a criar imagens do que está escondido lá dentro, como os órgãos. É uma
+                            forma
+                            legal
+                            de os médicos verem como tudo está funcionando sem precisar abrir nada, como um superpoder
+                            mágico!
+                        </p>
+                    </div>
+                    <button id="btnHome-tomo">Tomografia</button>
+                    <div id="procedimento-tomo" class="procedimento-tomo d-none">
+                        <p>
+                            Vamos imaginar que seu corpo é uma cidade incrível e a tomografia é como um mapa detalhado
+                            dessa
+                            cidade. Os médicos querem saber exatamente como são os prédios e ruas por dentro, então usam
+                            uma
+                            máquina especial. Essa máquina é como um superpoder secreto que tira muitas fotos rápidas
+                            enquanto você fica deitado. É como se fosse um super-herói espiando todos os cantinhos da
+                            cidade
+                            para garantir que tudo está em ordem. As fotos são como fatias de bolo que, quando colocadas
+                            juntas, criam um mapa 3D completo da sua cidade interna. Assim, os médicos podem ver todos
+                            os
+                            detalhes, como se estivessem dando uma espiadinha por dentro da sua cidade, sem precisar
+                            mexer
+                            em nada. Então, a tomografia é como um super-herói com um mapa especial para garantir que
+                            sua
+                            cidade (seu corpo) esteja sempre segura e saudável!
+                        </p>
+                    </div>
+                </div>
             </div>
-            <button id="prox-button">
-                <?xml version="1.0" encoding="UTF-8"?>
-                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
-                    <path
-                        d="m23.542,10.892l-4.717-4.717-.707.707,4.618,4.618H0v1h22.734l-4.617,4.617.707.707,4.718-4.718c.61-.61.61-1.604,0-2.214Z" />
-                </svg>
-            </button>
+            <div class="boxes-infos">
+                <div id="infos-hosp">
+                   
+
+            </div>
         </div>
         <div id="portal-paciente" class="content d-none">
             <div id="portal">
-            <h1>Acesse o Portal do Paciente para ter acesso a: </h1>
-            <ul>
-                <li>Agendar exames e consultas</li>
-                <li>Encontrar um médico perto de você</li>
-                <li>Acessar o seu prontuário</li>
-                <li>Consultar seu histórico médico</li>
-            </ul>
+                <h1>Acesse o Portal do Paciente para ter acesso a: </h1>
+                <ul>
+                    <li>Agendar exames e consultas</li>
+                    <li>Encontrar um médico perto de você</li>
+                    <li>Acessar o seu prontuário</li>
+                    <li>Consultar seu histórico médico</li>
+                </ul>
                 <form>
                     <div class="form-box">
                         <input type="text" id="CPF" placeholder="Digite o seu CPF">
@@ -86,28 +154,94 @@
                     <div class="form-box">
                         <input type="text" id="CPF" placeholder="Digite o número da carteirinha">
                     </div>
-                    <button>Acessar</button>
+                    <button>ACESSAR</button>
                 </form>
             </div>
             <div id="avaliation">
+                <div>
+                    <h1>
+                        Como foi a sua passagem no Hospital das Clínicas?
+                    </h1>
+                    <p>Avalie neste campo como foi a sua experiência no nosso hospital</p>
+                    <h4>Motivo da visita?</h4>
+                    <div id="checkbox-box">
+                        <input type="checkbox" id="checkbox-box-exame">
+                        <span class="checkmark"> Exame </span>
+                    </div>
 
+                    <div id="exame-container" class="exame-container d-none">
+                        <h4>Qual exame realizou?</h4>
+                        <div id="checkbox-exames">
+                            <input type="checkbox">
+                            <span class="checkmark"> Exame de Sangue </span>
+                        </div>
+                        <div id="checkbox-exames">
+                            <input type="checkbox">
+                            <span class="checkmark"> Ultrassografia </span>
+                        </div>
+                        <div id="checkbox-exames">
+                            <input type="checkbox">
+                            <span class="checkmark"> Tomografia </span>
+                        </div>
+                        <div id="checkbox-exames">
+                            <input type="checkbox">
+                            <span class="checkmark"> Raio X </span>
+                        </div>
+                        <div id="checkbox-exames">
+                            <input type="checkbox">
+                            <span class="checkmark"> Ressonância Magnética (RM) </span>
+                        </div>
+                    </div>
+                    <div id="checkbox-box">
+                        <input type="checkbox" id="check-box-consulta">
+                        <span class="checkmark"> Consultas </span>
+                    </div>
+                    <div id="checkbox-consultas" class="checkbox-consultas d-none">
+                        <input type="text" id='box-consulta' placeholder="Digite a especiliadade médica">
+                        <input type="date" name="Date" id="box-consulta">
+                    </div>
+                    <div id="avaliation-box">
+                        <p>Como o paciente se sentiu durante na situação?</p>
+                        <div id="btn-avaliation">
+                            <button id="btn-avaliation"><img src="/public/images/alegria.jpg"
+                                    alt="Botão Alegria"></button>
+                            <button id="btn-avaliation"><img src="/public/images/medo.jpg" alt="Botão Medo"></button>
+                            <button id="btn-avaliation"><img src="/public/images/raivoso.jpg"
+                                    alt="Botão Raiva"></button>
+                            <button id="btn-avaliation"><img src="/public/images/tristeza.jpg"
+                                    alt="Botão Tristeza"></button>
+                        </div>
+                    </div>
+                    <div id="agradecimento" class="agradecimento d-none">
+                        <h1>Obrigado pela sua avaliação!</h1>
+                    </div>
+
+                </div>
             </div>
 
         </div>
+        <div id="apoio-portal" class="apoio-portal d-none">
+            <div class="campanhas">
+                <h1>Campanhas
+                    <div class="quadro-campanhas">
+                        <div>
+                            <p>
 
-        <!-- <div class="videos">
-            <video controls>
-                <source href="https://youtu.be/hVrpBKP9l3o" type="video /mp4">
-                <p>Explicação</p>
-        </div> -->
-        <!-- <div class="infos-hosp">
-            <div class="mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.3370687785332!2d-46.67296628528195!3d-23.555931971371212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5787201231c3%3A0x3f33dfaadb4d9d13!2sInstituto%20da%20Crian%C3%A7a%20e%20do%20Adolescente%20-%20ICr%20HCFMUSP!5e0!3m2!1spt-PT!2sbr!4v1712067790705!5m2!1spt-PT!2sbr"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                        </div>
+                        oi
+                    </div>
+                </h1>
             </div>
-        </div> -->
+        </div>
     </div>
+</div>
+
 </body>
+<footer>
+    <div class="foot">
+        <h1>2934883467</h1>
+    </div>
+</footer>
 
 </html>

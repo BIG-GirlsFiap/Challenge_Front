@@ -8,8 +8,19 @@ const btnPaciente = document.getElementById('btn-paciente')
 // const portalDoPaciente = document.querySelectorAll('portal-paciente')
 const apoio = document.getElementById('btn-apoio')
 const btnContato = document.getElementById('btn-contato')
+const btnExameSangue = document.getElementById('btnHome-examedesangue')
+const btnExameUltrassom = document.getElementById('btnHome-ultrassom')
+const btnExameTomo = document.getElementById('btnHome-tomo')
+const btnCheckBoxExame = document.getElementById('checkbox-box-exame')
+const btnCheckBoxConsulta = document.getElementById('check-box-consulta')
+const btnAvaliation = document.getElementById('btn-avaliation')
 
-let currentSlide = 0; 
+const form = document.getElementById('form-box')
+
+
+
+
+let currentSlide = 0
 
 function showContainer (id){
     var conteudos = document.querySelectorAll('.content'); 
@@ -25,10 +36,14 @@ function showContainer (id){
     }
     
 }
-// btnHome.addEventListener('click', showContainer(home))
-// btnPaciente.addEventListener('click', showContainer(portalDoPaciente))
 
-
+function show(id){
+    var conteudos = document.querySelectorAll('.content'); 
+    conteudos.forEach(function (conteudo) {
+        var conteudo = document.getElementById(id);
+        conteudo.style.display = 'block'; 
+    });
+}
 
 function hideSlider(){
     slider.forEach(item => item.classList.remove('on'))
@@ -59,6 +74,10 @@ function proxSlider(){
     showSlider()
 }
 
+function resetTexto(){
+    btnAvaliation.innerHTML = '';
+}
+
 // btnPrev.addEventListener('click', () => console.log('clicado'))
 btnPrev.addEventListener('click', prevSlider)
 btnProx.addEventListener('click', proxSlider)
@@ -72,12 +91,36 @@ btnPaciente.addEventListener('click', ()=> {
 })
 
 apoio.addEventListener('click', ()=> {
-    showContainer();
+    showContainer('apoio-portal');
 })
+
 btnContato.addEventListener('click', ()=> {
     showContainer(this);
 })
 
+btnExameSangue.addEventListener('click', ()=>{
+    show('procedimento-examesangue')
+    
+})
+btnExameUltrassom.addEventListener('click', ()=>{
+    show('procedimento-ultrassom')
+})
+btnExameTomo.addEventListener('click',()=>{
+    show('procedimento-tomo')
+})
+btnCheckBoxExame.addEventListener('click', ()=> {
+    show('exame-container')
+})
+btnCheckBoxConsulta.addEventListener('click', ()=>{
+    show('checkbox-consultas')
+})
+
+btnAvaliation.addEventListener('click', ()=>{
+    show('agradecimento')
+})
+btnAvaliation.addEventListener('mouseover', ()=>{
+    show('btn-sentimento')
+})
 console.log(slider) 
 
 document.getElementById('btn-paciente').addEventListener('click', function () {
