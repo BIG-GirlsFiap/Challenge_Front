@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.d-none {
+    display: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.head-infos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border:1px solid orange;
+}
+
+.head div{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 0.5%;    
+    padding-bottom: 0.5%;
+    align-items: center;
+}
+.head-menu img:first-child{
+    width: 9%;
+}
+
+#menu{
+    width: 50%;
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 60px;
+    transition: transform 0.5s;
+    box-shadow: 1em;
+}
+
+#menu button{
+    border: none;
+    padding: 8px;
+    border-radius: 60px;
+    background-color:rgba(255, 255, 255, 0);
+    color:  rgb(6, 6, 180);;
+    font-size: 1.0rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    box-shadow: 1em;
+}
+#menu button:hover{
+    transform: scale(1.1);
+}
+#menu svg{
+    color: rgb(6, 6, 180);
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: transform 0.s;
+}
+#menu svg:hover{
+    transform: scale(1.1);
+}
+
+.main{
+    width: 85%;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+}
+.main div{
+    gap: 10px;
+}
+
+
+.infos-hosp{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    gap: 10px;
+}
+
+.mapa{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home-container{
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-videos{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%
+}
+.slider{
+    position: absolute;
+    width: 100%;
+    border-radius: 70px;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.on{
+    opacity: 1;
+}
+#prev-button, #prox-button{
+    width:15%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#prev-button svg, #prox-button svg{
+    width: 30%;
+    height: 300%;
+}
+#portal-paciente{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+#portal{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 241, 232);
+
+    padding: 3%;
+    border-radius: 60px;
+}
+#portal h1{
+    font-size: 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+#portal ul{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%; 
+}
+form{
+    width: 80%;
+    
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    /* border: 1px solid black; */
+    gap: 10px;
+    padding-top: 2%;
+    margin-top: 6%;
+    border-radius: 60px;
+}
+.form-box input[type='text']{
+    /* padding-top: 6%; */
+    margin-top: 6%;
+    padding: 6px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border-radius: 60px;
+    border: 1px solid; 
+    outline: 0;
+    
+}
+form button{
+    display: inline;
+    position:relative;
+    width: 50%;
+    padding: 6px;
+    margin-top: 6%;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+    border-radius: 60px;
+    margin-left: 25%;
+    color: white;
+    background: rgb(25,0,117);
+    background: linear-gradient(90deg, rgba(25,0,117,1) 30%, rgba(0,255,213,1) 100%);
+}
+
+#avaliation{
+}

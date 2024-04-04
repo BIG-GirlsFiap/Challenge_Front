@@ -1,80 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICR - Instituto da Criança e do Adolescente </title>
     <link rel="shortcut icon" type="imagex/png" href="https://icr.usp.br/wp-content/uploads/2017/11/favicon_icr.png">
-    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="./src/html.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <script src="./src/script.js" defer></script>
+
 </head>
 
 <body>
     <header>
         <div class='head-infos'>
+            <div id="ww_ae1c59f280a9d" v='1.3' loc='id'
+                a='{"t":"ticker","lang":"pt","sl_lpl":1,"ids":["wl1583"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#1976D2","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#FFFFFF","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                Mais previsões: <a href="https://oneweather.org/sao_paulo/30_days/" id="ww_ae1c59f280a9d_u"
+                    target="_blank">30 day weather forecast Sao Paulo</a></div>
+            <script async src="https://app2.weatherwidget.org/js/?id=ww_ae1c59f280a9d"></script>
             <div class='head'>
-                <div class="infos-locais">
-                    <div>
-                        
-                        <img src="https://icr.usp.br/wp-content/uploads/2017/11/location_ico.png"
-                            alt="icone-localização">
-                        <h3>Av. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP</h3>
+                <div class="head-menu">
+                    <img src="https://play-lh.googleusercontent.com/CJrMt-pFfUWLSv3BHm0QRnBgTGT6XgBTeOT7JrWtgLmCMV8X2C9J6QJh3H1kFKPdhRY"
+                        alt="Logo ICR">
+                    <div id="menu">
+                        <button id="btn-home"> Home </button>
+                        <button id="btn-paciente">Portal do Paciente</button>
+                        <button id="btn-apoio"> Apoio </button>
+                        <button id="btn-contato">Fale conosco</button>
+                        <button></button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; fill: none;  stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+                            <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                        </svg>
                     </div>
-                    <div>
-                        <img src="https://icr.usp.br/wp-content/uploads/2017/11/phone_ico.png" alt="icone-telefone">
-                        <h3>(11)2661-8500</h3>
+                    <img src="https://icr.usp.br/wp-content/uploads/2017/11/logos_icr_parceiros.png">
+                </div>
 
-                    </div>
-                </div>
-                <div class="pesquisa-campo">
-                    <input type="text" name="campo-pesquisa">
-                    <button>Pesquisar</button>
-                </div>
             </div>
         </div>
-        <div class="head-main">
-            <img src="https://icr.usp.br/wp-content/uploads/2022/04/logo-1.png" alt="ICR" class="logo-img"
-                data-no-retina="">
-            <img src="https://icr.usp.br/wp-content/uploads/2017/11/logos_icr_parceiros.png">
-        </div>
+
     </header>
-    <div class="menu">
-        <div class="menu-bar">
+
+    <div class="main">
+
+        <div class="content" id="home-container">
+            <button id="prev-button">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path
+                        d="m24,11.5H1.266l4.617-4.617-.707-.707L.458,10.894c-.61.61-.61,1.604,0,2.215l4.717,4.716.707-.707L1.265,12.5h22.735v-1Z" />
+                </svg>
+            </button>
+            <div class="container-videos">
+                <video src="ExameDeSangue.mp4" class="slider on"></video>
+                <img src="imagens/Instituto-da-criança-enfermagem.jpg" alt="">
+            </div>
+            <button id="prox-button">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path
+                        d="m23.542,10.892l-4.717-4.717-.707.707,4.618,4.618H0v1h22.734l-4.617,4.617.707.707,4.718-4.718c.61-.61.61-1.604,0-2.214Z" />
+                </svg>
+            </button>
+        </div>
+        <div id="portal-paciente" class="content d-none">
+            <div id="portal">
+            <h1>Acesse o Portal do Paciente para ter acesso a: </h1>
             <ul>
-                <li>Home</li>
-                <li>Portal do Paciente</li>
-                <li>Portal do Colaborador</li>
-                <li>Resultado de Exames</li>
-                <li>Apoio</li>
-                <li>Fale Conosco</li>
+                <li>Agendar exames e consultas</li>
+                <li>Encontrar um médico perto de você</li>
+                <li>Acessar o seu prontuário</li>
+                <li>Consultar seu histórico médico</li>
             </ul>
+                <form>
+                    <div class="form-box">
+                        <input type="text" id="CPF" placeholder="Digite o seu CPF">
+                    </div>
+                    <div class="form-box">
+                        <input type="text" id="CPF" placeholder="Digite o número da carteirinha">
+                    </div>
+                    <button>Acessar</button>
+                </form>
+            </div>
+            <div id="avaliation">
+
+            </div>
 
         </div>
-    </div>
-    <div class="main">
-        Video (procedimentos de exames)
-    </div>
-    <div class="infos-hosp">
-        <h1>Localização</h1>
-        <div class="mapa">
-            
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.3370687785332!2d-46.67296628528195!3d-23.555931971371212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5787201231c3%3A0x3f33dfaadb4d9d13!2sInstituto%20da%20Crian%C3%A7a%20e%20do%20Adolescente%20-%20ICr%20HCFMUSP!5e0!3m2!1spt-PT!2sbr!4v1712067790705!5m2!1spt-PT!2sbr"
-                allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="clima">
-            <div id="ww_82a7f6040cbdb" v='1.3' loc='id'
-                a='{"t":"horizontal","lang":"pt","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                Mais previsões: <a href="https://oneweather.org/sao_paulo/30_days/" id="ww_82a7f6040cbdb_u"
-                    target="_blank">Weather Sao Paulo 30 days</a></div>
-            <script async src="https://app2.weatherwidget.org/js/?id=ww_82a7f6040cbdb"></script>
-        </div>
+
+        <!-- <div class="videos">
+            <video controls>
+                <source href="https://youtu.be/hVrpBKP9l3o" type="video /mp4">
+                <p>Explicação</p>
+        </div> -->
+        <!-- <div class="infos-hosp">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.3370687785332!2d-46.67296628528195!3d-23.555931971371212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5787201231c3%3A0x3f33dfaadb4d9d13!2sInstituto%20da%20Crian%C3%A7a%20e%20do%20Adolescente%20-%20ICr%20HCFMUSP!5e0!3m2!1spt-PT!2sbr!4v1712067790705!5m2!1spt-PT!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> -->
     </div>
 </body>
 
